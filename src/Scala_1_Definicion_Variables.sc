@@ -1,5 +1,9 @@
 
-  object Scala_1_Definicion_Variables {
+object Scala_1_Definicion_Variables {
+
+  // 0. HELLO WORLD
+  // En Scala no se utilizan puntos y comas para marcar el final de una linea,
+  // aunque se puede poner ; para encadenar varias sentencias en una sola linea
   
   println("Hello World en Scala")                 //> Hello World en Scala
 
@@ -32,8 +36,7 @@
   val x_2: Double = 10                            //> x_2  : Double = 10.0
   println("x_2 = " + x_2)                         //> x_2 = 10.0
 
-  // PRACTICA 1: Crea una variable inmutable "z" que contenga el número 50 en formato Long, y una variable inmutable "z2" que contenga el número 10 en formato Int.
-  // Después imprime el resultado de la suma de ambas variables.
-
+  // PRACTICA 1: Crea una variable inmutable "z" que contenga el número 50 en formato Long, y una variable inmutable "z2" que contenga
+ // el número 10 en formato Int. Después imprime el resultado de la suma de ambas variables.
 
 }
